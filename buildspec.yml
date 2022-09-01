@@ -4,8 +4,8 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/my-web-app ./
+      - mv /codebuild/output/src397178900/ ./
 artifacts:
   files:
-    - my-web-app/**/*
- discard-paths: no
+    - /codebuild/output/src397178900/src/**/*
+ discard-paths: yes
