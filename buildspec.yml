@@ -5,7 +5,8 @@ phases:
     commands:
       - mvn /codebuild/output/src397178900/
       #- mv /codebuild/output/src397178900/ ./
-#artifacts:
-#  files:
+artifacts:
+  files:
  #   - /codebuild/output/src397178900/**/*
+     - index.html
  #discard-paths: yes
