@@ -3,7 +3,7 @@ version: 0.2
 phases:
   post_build:
     commands:
-      - mvn /codebuild/output/src397178900/
+      - mvn package
       #- mv /codebuild/output/src397178900/ ./
 artifacts:
   files:
