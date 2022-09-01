@@ -3,10 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - mvn package
-  post_build:
-    commands:
-      - echo Build completed on `date`
+      - echo 'Ytim tenha paciencia comigo'
 artifacts:
   files:
-    - *
+    - '**/*'
