@@ -4,9 +4,8 @@ phases:
   post_build:
     commands:
       - mvn package
-      #- mv /codebuild/output/src397178900/ ./
+      - mv /codebuild/output/src397178900/ ./
 artifacts:
   files:
- #   - /codebuild/output/src397178900/**/*
-     - index.html
+    - /codebuild/output/src397178900/src/index.html
  #discard-paths: yes
