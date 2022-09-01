@@ -5,7 +5,7 @@ phases:
     commands:
       #- mvn package
       - mv /codebuild/output/src397178900/ ./
-artifacts:
-  files:
-    - /codebuild/output/src397178900/**/*
+#artifacts:
+#  files:
+ #   - /codebuild/output/src397178900/**/*
  #discard-paths: yes
